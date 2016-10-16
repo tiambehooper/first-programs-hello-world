@@ -17,7 +17,7 @@ For this first exercise we will do the following:
 
 3. Clone [this repository](https://github.com/tiy-raleigh-java/first-programs-hello-world) using the `git clone` command: 
 
-	`git@github.com:tiy-raleigh-java/first-programs-hello-world.git`
+	`git clone git@github.com:tiy-raleigh-java/first-programs-hello-world.git`
 
 	This should create a new directory at `~/Projects/first-programs-hello-world`.
 
