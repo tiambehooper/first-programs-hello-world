@@ -1,27 +1,16 @@
 package com.theironyard;
 
-import net.doughughes.testifier.annotation.Testifier;
 import net.doughughes.testifier.output.OutputStreamInterceptor;
-import net.doughughes.testifier.watcher.NotifyingWatcher;
-import net.doughughes.testifier.watcher.OutputWatcher;
-import org.junit.Rule;
+import net.doughughes.testifier.test.TestifierTest;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.greaterThan;
 
-@Testifier(sourcePath = "./src/main/java/com/theironyard/HelloWorld.java", clazz = HelloWorld.class)
-public class HelloWorldTest {
-
-    @Rule
-    public NotifyingWatcher notifyingWatcher = new NotifyingWatcher("https://tiy-testifier-webapp.herokuapp.com/notify");
-
-    @Rule
-    public OutputWatcher outputWatcher = new OutputWatcher();
+public class HelloWorldTest extends TestifierTest {
 
     @Test
-    @Testifier(method = "main", args = {String[].class})
     public void testMain() {
         /* arrange */
 

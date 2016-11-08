@@ -1,4 +1,4 @@
-# Exercise: Hello World
+# [Exercise] Hello World
 
 For this first exercise we will do the following:
 
