@@ -1,5 +1,3 @@
-package com.theironyard;
-
 import net.doughughes.testifier.output.OutputStreamInterceptor;
 import net.doughughes.testifier.test.TestifierTest;
 import org.junit.Test;

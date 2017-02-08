@@ -1,5 +1,3 @@
-package com.theironyard;
-
 /**
  * Welcome to your first program! Your goal is to get this program to print out
  * the (exact) words "Hello World". A Hello World program is usually the very
